@@ -46,6 +46,12 @@ go-storage-client -addr 127.0.0.1:20214 -path "./download" 0d14a3da07c74efaee62f
 go-storage-client 0d14a3da07c74efaee62f3ea495ce7de2e62c257
 ```
 
+或者 
+
+```bash
+go-storage-client -meta src/meta/test/a.meta
+```
+
 ## 接入存储云
 
 - ali
