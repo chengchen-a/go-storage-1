@@ -13,7 +13,7 @@ storage /path/to/file
 #### 下载
 
 ```bash
-storage -meta src/meta/test/a.meta
+storage src/meta/test/a.meta
 ```
 
 ## 接入存储云
