@@ -1,21 +1,20 @@
-# Storage
+# storage
 
-无盘网络存储系统
+a tool use free CDN store file
 
-## 命令
+## how it works
 
-#### 上传 
+many website provider api to store image on CDN without authority check, this tool store file pieces as image on CDN. 
 
-```bash
-storage /path/to/file
-```
-
-#### 下载
+## usage
 
 ```bash
-storage src/meta/test/a.meta
+# upload
+storage /path/to/file # upload file to CDN, generated pieces mate for download
+# download
+storage /path/to/file.meta
 ```
 
-## 接入存储云
+## supported CDN node 
 
-- ali
+- ali: alibaba CDN
